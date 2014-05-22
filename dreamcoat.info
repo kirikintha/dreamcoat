@@ -1,0 +1,8 @@
+name = Dreamcoat
+description = This is a custom module that adds some drush commands for solr.
+core = 7.x
+package = Dreamcoat
+project = dreamcoat
+version = 7.x-1.0
+dependencies[] = apachesolr
+dependencies[] = facetapi
