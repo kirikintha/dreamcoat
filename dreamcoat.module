@@ -3,3 +3,10 @@
  * @author paul.huntsberger@gmail.com
  * @file dreamcoat.module
  */
+
+define('DREAMCOAT_MODULE_PATH', drupal_get_path('module', 'dreamcoat'));
+
+//Enable Debug.
+if (module_exists('devel')) {
+  require_once DREAMCOAT_MODULE_PATH . '/includes/devel.inc';
+}
