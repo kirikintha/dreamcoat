@@ -1,5 +1,5 @@
 name = Dreamcoat
-description = This is a custom module that adds some drush commands for solr.
+description = This is a simple development module, adds some development helpers that you can turn off.
 core = 7.x
 package = Dreamcoat
 project = dreamcoat
